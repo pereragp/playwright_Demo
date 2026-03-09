@@ -23,12 +23,12 @@ export const AuthProvider = ({ children }) => {
     setIsLoading(false);
   }, []);
 
-  // Mock login function
+  // Mock login function - only accepts hardcoded credentials
   const login = async (email, password) => {
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    // Hardcoded credentials for demo
+    // Only accept hardcoded credentials
     if (email === 'demo@example.com' && password === 'password123') {
       const userData = {
         id: 1,
@@ -38,18 +38,8 @@ export const AuthProvider = ({ children }) => {
       setUser(userData);
       localStorage.setItem('user', JSON.stringify(userData));
       return { success: true };
-    } else if (email && password) {
-      // Accept any email/password for demo purposes
-      const userData = {
-        id: Date.now(),
-        email: email,
-        name: email.split('@')[0],
-      };
-      setUser(userData);
-      localStorage.setItem('user', JSON.stringify(userData));
-      return { success: true };
     } else {
-      return { success: false, error: 'Invalid credentials' };
+      return { success: false, error: 'Invalid email or password' };
     }
   };
 
