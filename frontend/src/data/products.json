@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Bluetooth Headphones",
+    "description": "Premium noise-cancelling wireless headphones with 30-hour battery life. Features advanced Bluetooth 5.0 technology, comfortable over-ear design, and crystal-clear audio quality. Perfect for music lovers and professionals.",
+    "price": 89.99,
+    "rating": 4.5,
+    "image": "https://picsum.photos/seed/product1/400/400",
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "title": "Smart Fitness Watch",
+    "description": "Track your fitness goals with this advanced smartwatch. Features heart rate monitoring, GPS tracking, sleep analysis, and 50+ sport modes. Water-resistant up to 50m with 7-day battery life.",
+    "price": 199.99,
+    "rating": 4.8,
+    "image": "https://picsum.photos/seed/product2/400/400",
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "title": "Professional Camera Lens",
+    "description": "High-quality 50mm f/1.8 prime lens for DSLR cameras. Delivers stunning bokeh and exceptional low-light performance. Perfect for portraits, street photography, and creative work.",
+    "price": 349.99,
+    "rating": 4.7,
+    "image": "https://picsum.photos/seed/product3/400/400",
+    "category": "Photography"
+  },
+  {
+    "id": 4,
+    "title": "Ergonomic Office Chair",
+    "description": "Premium ergonomic office chair with lumbar support and adjustable armrests. Features breathable mesh back, 360-degree swivel, and height adjustment. Designed for all-day comfort and productivity.",
+    "price": 299.99,
+    "rating": 4.6,
+    "image": "https://picsum.photos/seed/product4/400/400",
+    "category": "Furniture"
+  },
+  {
+    "id": 5,
+    "title": "Stainless Steel Water Bottle",
+    "description": "Insulated stainless steel water bottle keeps drinks cold for 24 hours or hot for 12 hours. BPA-free, leak-proof design with wide mouth for easy cleaning. Available in 32oz capacity.",
+    "price": 29.99,
+    "rating": 4.4,
+    "image": "https://picsum.photos/seed/product5/400/400",
+    "category": "Lifestyle"
+  },
+  {
+    "id": 6,
+    "title": "Mechanical Gaming Keyboard",
+    "description": "RGB backlit mechanical gaming keyboard with customizable keys and anti-ghosting technology. Features durable mechanical switches, programmable macros, and ergonomic wrist rest.",
+    "price": 129.99,
+    "rating": 4.9,
+    "image": "https://picsum.photos/seed/product6/400/400",
+    "category": "Electronics"
+  },
+  {
+    "id": 7,
+    "title": "Yoga Mat with Carrying Strap",
+    "description": "Premium non-slip yoga mat made from eco-friendly TPE material. Extra thick 6mm cushioning provides comfort and support. Includes carrying strap and storage bag.",
+    "price": 39.99,
+    "rating": 4.3,
+    "image": "https://picsum.photos/seed/product7/400/400",
+    "category": "Sports"
+  },
+  {
+    "id": 8,
+    "title": "Portable Bluetooth Speaker",
+    "description": "Waterproof portable Bluetooth speaker with 360-degree sound. Features 20-hour battery life, USB-C charging, and built-in microphone for hands-free calls. Perfect for outdoor adventures.",
+    "price": 59.99,
+    "rating": 4.6,
+    "image": "https://picsum.photos/seed/product8/400/400",
+    "category": "Electronics"
+  },
+  {
+    "id": 9,
+    "title": "Cotton Bed Sheet Set",
+    "description": "Luxury 100% Egyptian cotton bed sheet set. Includes fitted sheet, flat sheet, and two pillowcases. Soft, breathable, and wrinkle-resistant. Available in Queen size.",
+    "price": 79.99,
+    "rating": 4.5,
+    "image": "https://picsum.photos/seed/product9/400/400",
+    "category": "Home"
+  },
+  {
+    "id": 10,
+    "title": "Stainless Steel Cookware Set",
+    "description": "Professional 10-piece stainless steel cookware set. Includes pots, pans, and lids. Features tri-ply construction for even heat distribution. Oven-safe up to 500°F and dishwasher safe.",
+    "price": 249.99,
+    "rating": 4.7,
+    "image": "https://picsum.photos/seed/product10/400/400",
+    "category": "Kitchen"
+  },
+  {
+    "id": 11,
+    "title": "LED Desk Lamp",
+    "description": "Modern LED desk lamp with adjustable brightness and color temperature. Features USB charging port, touch controls, and flexible gooseneck design. Energy-efficient and eye-friendly.",
+    "price": 45.99,
+    "rating": 4.4,
+    "image": "https://picsum.photos/seed/product11/400/400",
+    "category": "Home"
+  },
+  {
+    "id": 12,
+    "title": "Running Shoes",
+    "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper. Features durable rubber outsole with excellent traction. Designed for comfort during long-distance runs.",
+    "price": 119.99,
+    "rating": 4.8,
+    "image": "https://picsum.photos/seed/product12/400/400",
+    "category": "Sports"
+  }
+]
