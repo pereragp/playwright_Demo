@@ -13,7 +13,7 @@ test('Complete user journey - add to cart, login, checkout', async ({ page }) =>
 
   // attempt checkout
   await page.getByTestId('checkout-button').click();
-/*
+
   // user should be redirected to login
   await expect(page).toHaveURL(/login/);
 
@@ -25,7 +25,7 @@ test('Complete user journey - add to cart, login, checkout', async ({ page }) =>
     page.waitForNavigation(),
     page.getByTestId('login-button').click()
   ]);
-*/
+
   // go back to cart
   await page.getByTestId('cart-link').click();
 
