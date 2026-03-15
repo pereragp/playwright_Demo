@@ -5,8 +5,8 @@ test.describe('Failed Login Tests', () => {
   test('should show error for invalid email', async ({ page }) => {
     await page.goto('/login');
 
-    await page.fill('[data-testid="login-email"]', 'invalid@example.com');
-    await page.fill('[data-testid="login-password"]', 'password123');
+    await page.fill('[data-testid="login-email"]', 'invalid@example.com'); //Invalid email
+    await page.fill('[data-testid="login-password"]', 'password123'); //Valid password
 
     await page.click('[data-testid="login-button"]');
 
@@ -20,12 +20,17 @@ test.describe('Failed Login Tests', () => {
     await expect(page.locator('[data-testid="login-error"]')).toBeVisible();
     await expect(page.locator('[data-testid="login-error"]')).toContainText('Invalid email or password');
   });
+
+
+
+
+
 
   test('should show error for invalid password', async ({ page }) => {
     await page.goto('/login');
 
-    await page.fill('[data-testid="login-email"]', 'demo@example.com');
-    await page.fill('[data-testid="login-password"]', 'wrongpassword');
+    await page.fill('[data-testid="login-email"]', 'demo@example.com'); //Valid email
+    await page.fill('[data-testid="login-password"]', 'wrongpassword'); //Invalid password
 
     await page.click('[data-testid="login-button"]');
 
@@ -40,11 +45,16 @@ test.describe('Failed Login Tests', () => {
     await expect(page.locator('[data-testid="login-error"]')).toContainText('Invalid email or password');
   });
 
+
+
+
+
+
   test('should show error for completely invalid credentials', async ({ page }) => {
     await page.goto('/login');
 
-    await page.fill('[data-testid="login-email"]', 'wrong@wrong.com');
-    await page.fill('[data-testid="login-password"]', 'wrongpassword');
+    await page.fill('[data-testid="login-email"]', 'wrong@wrong.com'); //Invalid email
+    await page.fill('[data-testid="login-password"]', 'wrongpassword'); //Invalid password
 
     await page.click('[data-testid="login-button"]');
 
@@ -59,11 +69,16 @@ test.describe('Failed Login Tests', () => {
     await expect(page.locator('[data-testid="login-error"]')).toContainText('Invalid email or password');
   });
 
+
+
+
+
+
   test('should prevent submission with empty email (browser validation)', async ({ page }) => {
     await page.goto('/login');
 
     // Leave email empty
-    await page.fill('[data-testid="login-email"]', '');
+    await page.fill('[data-testid="login-email"]', ''); //Empty email
     await page.fill('[data-testid="login-password"]', 'password123');
 
     await page.click('[data-testid="login-button"]');
@@ -75,12 +90,16 @@ test.describe('Failed Login Tests', () => {
     await expect(page.locator('[data-testid="login-error"]')).not.toBeVisible();
   });
 
+
+
+
+
   test('should prevent submission with empty password (browser validation)', async ({ page }) => {
     await page.goto('/login');
 
     await page.fill('[data-testid="login-email"]', 'demo@example.com');
     // Leave password empty
-    await page.fill('[data-testid="login-password"]', '');
+    await page.fill('[data-testid="login-password"]', ''); //Empty password
 
     await page.click('[data-testid="login-button"]');
 
